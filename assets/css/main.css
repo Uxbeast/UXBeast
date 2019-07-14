@@ -1717,3 +1717,148 @@ Footer
 ===============================*/
 
 /* ======= Get Started - Mobile ======= */
+.get-started {
+  padding-bottom: 0;
+  height: 250px;
+  display: flex;
+  align-items: center;
+}
+
+.get-started .banner-text {
+  margin: 0;
+  /* padding: */
+  width: 100%;
+  padding-top: 0;
+}
+
+.get-started-text {
+  padding: 20px;
+}
+
+.get-started-img {
+  background: url('../../images/get-started.jpg') no-repeat;
+  background-size: 115%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0px;
+  width: 100%;
+  z-index: -2;
+}
+
+.get-started .dark-overlay {
+  background: rgba(0,0,0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.get-started .banner-text h1 {
+  order: 0;
+  padding-top: 0;
+  color: #fff;
+}
+
+.get-started .banner-text p {
+  order: 1;
+  color: rgba(255, 255, 255, 0.85);
+  font-weight: 400;
+  line-height: 1.4;
+  padding-top: 10px;
+  font-size: 15px;
+}
+
+/* ======= Entry Content - Mobile ======= */
+.entry-content h1 {
+  margin: 0;
+  font-size: 20px;
+}
+
+.entry-content {
+  padding: 62px 15px;
+}
+
+.entry-content p {
+  margin: 0;
+  font-size: 15px;
+  line-height: 1.5;
+  color: rgba(0,0,0, 0.6);
+}
+
+.call-us,
+.email-us {
+  margin-top: 20px;
+}
+
+.call-us h1,
+.email-us h1 {
+  padding-bottom: 5px;
+  /* color: #505CFD; */
+}
+
+.call-us a,
+.email-us a {
+  display: flex;
+  padding: 5px 0px;
+  text-decoration: underline;
+}
+
+.inside-page {
+  background: #f5f5f5;
+  /* padding: 50px 15px 0px; */
+}
+
+
+/* ======= Get Started - large Mobile(680px) ======= */
+@media (min-width: 680px) {
+  .get-started {
+    /* margin: 0;
+    width: 100%; */
+    /* padding-top: 0; */
+    padding: 40px 20px;
+  }
+
+  .get-started-img { 
+    background-size: 100%;
+  }
+}
+
+/* ======= Get Started - Tablet(768px) ======= */
+@media (min-width: 768px) { 
+  .get-started {
+    height: 350px;
+  }
+
+  .entry-content-tablet {
+    width: 70%;
+  }
+
+  .entry-content {
+    padding: 62px 20px;
+  }
+}
+
+
+/* ======= Get Started - Desktop(992px) ======= */
+@media (min-width: 992px) {
+  .get-started {
+    padding: 0 40px;
+    height: 400px;
+  }
+
+  .entry-content-tablet {
+    width: 100%;
+  }
+
+  .entry-content {
+    padding: 62px 40px;
+  }
+}
+
+
