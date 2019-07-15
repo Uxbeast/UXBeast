@@ -683,10 +683,10 @@ Services
 }
 
 .services .services-snippet {
-  font-size: 14px;
-  line-height: 22px;
-  padding-top: 6px;
-  padding-bottom: 44px;
+  font-size: 15px;
+  line-height: 1.6;
+  padding-top: 14px;
+  padding-bottom: 48px;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -706,15 +706,15 @@ Services
 }
 
 .service-heading h1 {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   padding-left: 16px;
   align-self: center;
 }
 
 .service p {
-  font-size: 14px;
-  line-height: 22px;
+  font-size: 15px;
+  line-height: 1.6;
   font-weight: 400;
   padding-top: 18px;
   color: rgba(255, 255, 255, 0.4);
@@ -741,8 +741,8 @@ Services
   }
   
   .services .services-snippet {
-    font-size: 15px;
-    line-height: 25px;
+    /* font-size: 15px; */
+    line-height: 1.6;
     padding-top: 8px;
     padding-bottom: 54px;
   }
@@ -759,12 +759,12 @@ Services
   }
     
   .service-heading h1 {
-    font-size: 16px;
+    /* font-size: 16px; */
   }
   
   .service p {
     font-size: 15px;
-    line-height: 25px;
+    /* line-height: 1.6; */
     padding-top: 24px;
   }
 }
@@ -781,7 +781,7 @@ Services
 /* ======= Services - Large Desktop(1200px) ======= */
 @media (min-width: 1200px) {
   .services {
-    padding: 77px 54px 17px;
+    padding: 87px 54px 27px;
     display: flex;
   }
 
@@ -807,14 +807,13 @@ Services
 
   .services .services-snippet {
     font-size: 16px;
-    line-height: 26px;
-    padding-top: 14px;
+    padding-top: 16px;
     /* padding-bottom: 54px; */
   }
 
   .service p {
     font-size: 16px;
-    line-height: 26px;
+    /* line-height: 1.6; */
     padding-top: 24px;
   }
 }
