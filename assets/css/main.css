@@ -1239,6 +1239,7 @@ margin-top: 45px;
           order: 2;
   font-size: 14px;
   line-height: 24px;
+  padding-top: 6px;
 }
 
 .more-feature-mb-mockup {
@@ -1468,7 +1469,7 @@ Workflow
 
 .workflow-bg {
   background: url('../svg/workflow-mb-bg.svg') no-repeat;
-  background-size: 108%;
+  background-size: 120%;
   position: absolute;
   top: 0;
   left: -2px;
@@ -1486,7 +1487,7 @@ Workflow
 .workflow-content p {
   font-size: 14px;
   line-height: 24px;
-  color: rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.6);
   padding-top: 10px;
 }
 
