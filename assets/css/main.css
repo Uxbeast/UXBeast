@@ -125,6 +125,7 @@ img.background-image {
     margin: 0;
     font-family: 'Raleway', sans-serif;
     color: #404044;
+    overflow-x: hidden;
   }
 
 
